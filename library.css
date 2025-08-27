@@ -1,0 +1,135 @@
+  :root {
+  --spacer: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  text-align: center;
+}
+
+body {
+  background-color: #00a2ff;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: white;
+  color: #000000;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+  padding: 0;
+}
+
+nav ul li {
+  font-size: medium;
+  display: inline-block;
+  margin: 0 25px;
+}
+
+nav ul li a {
+  display: inline;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+section {
+  padding: 20px;
+  padding-left: 4%;
+  margin-left: 0;
+  color: #000000;
+  background-color: bisque;
+  max-width: 1500px;
+  min-width: 50px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+section h2 {
+  color: #000000;
+  text-align: center;
+}
+
+section p {
+  color: #000;
+  text-align: center;
+}
+
+section h6 {
+  text-align: center;
+  font-size: medium;
+}
+
+section h5 {
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+  display: inline;
+  margin: 0 12.5vw;
+  padding-left: calc(var(--spacer) * 0.3);
+  justify-content: space-between;
+  padding-right: calc(var(--spacer) * 0.3);
+}
+
+h3 {
+  padding: var(--spacer) !important;
+}
+
+#HOME {
+  background-color: #fc0;
+}
+
+/* Utility Classes */
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+.ms-1 {
+  margin-left: calc(var(--spacer) * 0.25) !important;
+}
+ 
+div ul li{
+    text-align: left;
+    justify-content: space-between;
+}
+
+div ul li a{
+    text-align: center;
+    display: flex;
+    box-decoration-break:#000 0,0,10px;
+    justify-content: space-between;
+  flex-direction: row;
+  gap: 3px;
+  padding: 5px;
+  height: 4vh;
+  background:#e0f7fa;
+
+}
+library {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+  background:#e0f7fa;
+
+
+}
