@@ -104,20 +104,50 @@ h3 {
   margin-left: calc(var(--spacer) * 0.25) !important;
 }
  
-div ul li{
-    text-align: left;
-    justify-content: space-between;
-}
-
-div ul li a{
-    text-align: center;
-    display: flex;
-    box-decoration-break:#000 0,0,10px;
-    justify-content: space-between;
-  flex-direction: row;
-  gap: 3px;
-  padding: 5px;
-  height: 4vh;
-  background:#e0f7fa;
 
 }
+.library ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap; /* biar item bisa turun ke baris baru */
+  justify-content: center; /* rata tengah horizontal */
+  gap: 20px; /* jarak antar item */
+}
+
+.library ul li {
+  background: #e0f7fa;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  flex: 1 1 280px; /* minimal lebar 280px, fleksibel */
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  gap: 15px;
+  min-width: 250px;
+  max-width: 350px;
+}
+
+.library ul li img {
+  width: 80px;
+  height: auto;
+  border-radius: 5px;
+  flex-shrink: 0;
+}
+
+.library ul li a {
+  text-align: left;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+  flex-grow: 1;
+}
+
+.library ul li a:hover {
+  text-decoration: underline;
+}
+
+
