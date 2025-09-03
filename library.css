@@ -143,12 +143,13 @@ h3 {
   text-decoration: none;
   display: block;
   flex-grow: 1;
-  fond-weight:bold;
+  font-weight:bold;
 }
 
 .library ul li a:hover {
   text-decoration: underline;
 }
+
 
 
 
