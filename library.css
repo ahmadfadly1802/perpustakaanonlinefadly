@@ -137,7 +137,7 @@ h3 {
   flex-shrink: 0;
 }
 
-.library ul li a {
+library ul li a {
   text-align: left;
   color: #000;
   text-decoration: none;
@@ -150,6 +150,8 @@ h3 {
   text-decoration: underline;
 }
 
+library ul li a sebuah-novel {
+  font-weight:bold;
 
 
 
