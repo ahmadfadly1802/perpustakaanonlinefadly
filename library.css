@@ -140,7 +140,6 @@ h3 {
 .library ul li a {
   text-align: left;
   color: #000;
-  font-weight: bold;
   text-decoration: none;
   display: block;
   flex-grow: 1;
@@ -149,6 +148,7 @@ h3 {
 .library ul li a:hover {
   text-decoration: underline;
 }
+
 
 
 
