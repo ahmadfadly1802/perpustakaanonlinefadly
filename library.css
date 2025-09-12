@@ -104,17 +104,27 @@ h3 {
   margin-left: calc(var(--spacer) * 0.25) !important;
 }
 
-/* Bagian Library - sudah diperbaiki */
+/.library {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
+  flex-wrap: wrap; /* supaya kolom bisa turun di layar kecil */
+}
+
+.library .column {
+  flex: 1 1 22%; /* 4 kolom dengan jarak antar kolom */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 200px; /* supaya kolom gak terlalu kecil */
+  box-sizing: border-box;
+}
+
 .library ul {
   list-style: none;
   padding: 0;
-  margin: 0 auto;
-  max-width: 1200px;
-  display: grid;  /* Tambah titik koma di sini! */
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 20px;
-  justify-content: center;
-  box-sizing: border-box;
+  margin: 0;
 }
 
 .library ul li {
@@ -125,8 +135,6 @@ h3 {
   display: flex;
   align-items: center;
   gap: 15px;
-  min-width: 250px;
-  max-width: 350px;
   box-sizing: border-box;
 }
 
@@ -150,8 +158,10 @@ h3 {
   text-decoration: underline;
 }
 
+
 footer {
   background-color: #dcdcdc;
   font-size: 14px;
   color: #696969;
 }
+
