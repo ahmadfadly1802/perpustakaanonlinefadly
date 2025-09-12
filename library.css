@@ -59,6 +59,10 @@ section {
   min-width: 50px;
   border-radius: 5px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+   display: flex;
+    gap: 32px;
+    margin: 24px 0;
+    flex-wrap: wrap;
 }
 
 section h2 {
@@ -156,6 +160,7 @@ footer{
   color:#696969;
   
 }
+
 
 
 
