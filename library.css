@@ -43,7 +43,7 @@ nav ul li {
 }
 
 nav ul li a {
-  display: inline;
+ 
   text-decoration: none;
   color: black;
   font-weight: bold;
@@ -160,6 +160,7 @@ footer{
   color:#696969;
   
 }
+
 
 
 
