@@ -59,10 +59,7 @@ section {
   min-width: 50px;
   border-radius: 5px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-   display: flex;
-    gap: 32px;
-    margin: 24px 0;
-    flex-wrap: wrap;
+   
 }
 
 section h2 {
@@ -148,6 +145,10 @@ h3 {
   display: block;
   flex-grow: 1;
   font-weight:bold;
+     display: flex;
+    gap: 32px;
+    margin: 24px 0;
+    flex-wrap: wrap;
 }
 
 .library ul li a:hover {
@@ -160,6 +161,7 @@ footer{
   color:#696969;
   
 }
+
 
 
 
