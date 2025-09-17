@@ -28,26 +28,6 @@ header h1 {
   text-align: center;
 }
 
-nav ul {
-  list-style-type: none;
-  font-weight: bold;
-  text-align: center;
-  margin: 10px;
-  padding: 0;
-}
-
-nav ul li {
-  flex: 1 1 320px;
-    border-radius: 8px;
-    padding: 15px;
-    margin-bottom: 10px;
-
-nav ul li a {
-  display: inline;
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-}
 
 section {
   padding: 20px;
@@ -104,39 +84,7 @@ h3 {
   margin-left: calc(var(--spacer) * 0.25) !important;
 }
 
-/.library {
-  display: flex;
-  max-width: 1200px;
-  margin: 0 auto;
-  gap: 20px;
-  flex-wrap: wrap; /* supaya kolom bisa turun di layar kecil */
-}
 
-.library .column {
-  flex: 1 1 22%; /* 4 kolom dengan jarak antar kolom */
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  min-width: 200px; /* supaya kolom gak terlalu kecil */
-  box-sizing: border-box;
-}
-
-.library ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.library ul li {
-  background: #e0f7fa;
-  border-radius: 8px;
-  box-shadow: 0 0 8px rgba(0,0,0,0.1);
-  padding: 12px;
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  box-sizing: border-box;
-}
 
 .library ul li img {
   width: 80px;
@@ -145,18 +93,7 @@ h3 {
   flex-shrink: 0;
 }
 
-.library ul li a {
-  text-align: left;
-  color: #000;
-  text-decoration: none;
-  display: block;
-  flex-grow: 1;
-  font-weight: bold;
-}
 
-.library ul li a:hover {
-  text-decoration: underline;
-}
 
 
 footer {
@@ -164,6 +101,7 @@ footer {
   font-size: 14px;
   color: #696969;
 }
+
 
 
 
