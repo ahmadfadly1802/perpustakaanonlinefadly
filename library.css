@@ -99,6 +99,12 @@ h3 {
   flex-wrap:wrap;
   
 }
+div ul li a{
+  display:flex;
+  gap:25px;
+  margin:20px;
+  
+}
 
 
 
@@ -107,6 +113,7 @@ footer {
   font-size: 14px;
   color: #696969;
 }
+
 
 
 
