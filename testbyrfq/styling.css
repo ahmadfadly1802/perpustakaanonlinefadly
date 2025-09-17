@@ -1,0 +1,171 @@
+
+:root {
+    --spacer: 16px;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    text-align: center;
+  }
+  
+  body {
+    background-color: #00a2ff;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  header {
+    background-color: white;
+    color: #000000;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    padding: 0;
+  }
+  
+  nav ul li {
+    font-size: medium;
+    display: inline-block;
+    margin: 0 25px;
+    flex: 1 1 1 320px;
+  }
+  
+  nav ul li a {
+    display: inline;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  section {
+    padding: 20px;
+    padding-left: 4%;
+    margin-left: 0;
+    color: #000000;
+    background-color: bisque;
+    max-width: 1500px;
+    min-width: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  section h2 {
+    color: #000000;
+    text-align: center;
+  }
+  
+  section p {
+    color: #000;
+    text-align: center;
+  }
+  
+  section h6 {
+    text-align: center;
+    font-size: medium;
+  }
+  
+  section h5 {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    display: inline;
+    margin: 0 12.5vw;
+    padding-left: calc(var(--spacer) * 0.3);
+    justify-content: space-between;
+    padding-right: calc(var(--spacer) * 0.3);
+  }
+  
+  h3 {
+    padding: var(--spacer) !important;
+  }
+  
+  #HOME {
+    background-color: #fc0;
+  }
+  
+  /* Utility Classes */
+  .mt-0 {
+    margin-top: 0 !important;
+  }
+  
+  .ms-1 {
+    margin-left: calc(var(--spacer) * 0.25) !important;
+  }
+  
+  /.library {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+    flex-wrap: wrap; /* supaya kolom bisa turun di layar kecil */
+  }
+  
+  .library .column {
+    flex: 1 1 22%; /* 4 kolom dengan jarak antar kolom */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-width: 200px; /* supaya kolom gak terlalu kecil */
+    box-sizing: border-box;
+  }
+  
+  .library ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .library ul li {
+    background: #e0f7fa;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-sizing: border-box;
+  }
+  
+  .library ul li img {
+    width: 80px;
+    height: auto;
+    border-radius: 5px;
+    flex-shrink: 0;
+  }
+  
+  .library ul li a {
+    text-align: left;
+    color: #000;
+    text-decoration: none;
+    display: block;
+    flex-grow: 1;
+    font-weight: bold;
+  }
+  
+  .library ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  footer {
+    background-color: #dcdcdc;
+    font-size: 14px;
+    color: #696969;
+  }
+  
+  
+  
