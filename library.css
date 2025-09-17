@@ -103,7 +103,7 @@ div ul li a{
   display:flex;
   gap:25px;
   margin:20px;
-  
+  jsutify-content:space-between;
 }
 
 
@@ -113,6 +113,7 @@ footer {
   font-size: 14px;
   color: #696969;
 }
+
 
 
 
