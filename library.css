@@ -140,14 +140,14 @@
     box-sizing: border-box;
   }
   
-  .library ul li img {
+  .main class img {
     width: 80px;
     height: auto;
     border-radius: 5px;
     flex-shrink: 0;
   }
   
-  .library ul li a {
+  .main class{
     text-align: left;
     color: #000;
     text-decoration: none;
@@ -156,7 +156,7 @@
     font-weight: bold;
   }
   
-  .library ul li a:hover {
+  .lmain class a:hover {
     text-decoration: underline;
   }
   
