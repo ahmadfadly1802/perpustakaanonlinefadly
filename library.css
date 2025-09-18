@@ -44,7 +44,7 @@
     flex: 1 1 1 320px;
   }
   
-  nav ul li a {
+  nav ul li  {
     display: inline;
     text-decoration: none;
     color: black;
@@ -114,7 +114,7 @@
     flex-wrap: wrap; /* supaya kolom bisa turun di layar kecil */
   }
   
-  .main class.column {
+  .div class.column {
     flex: 1 1 22%; /* 4 kolom dengan jarak antar kolom */
     display: flex;
     flex-direction: column;
@@ -123,13 +123,13 @@
     box-sizing: border-box;
   }
   
-  .main class {
+  .div class {
     list-style: none;
     padding: 0;
     margin: 0;
   }
   
-  .main class {
+  .section class {
     background: #e0f7fa;
     border-radius: 8px;
     box-shadow: 0 0 8px rgba(0,0,0,0.1);
@@ -140,14 +140,14 @@
     box-sizing: border-box;
   }
   
-  .main class img {
+  .section class img {
     width: 80px;
     height: auto;
     border-radius: 5px;
     flex-shrink: 0;
   }
   
-  .main class{
+  .div class{
     text-align: left;
     color: #000;
     text-decoration: none;
@@ -156,7 +156,7 @@
     font-weight: bold;
   }
   
-  .main class a:hover {
+  .section class a:hover {
     text-decoration: underline;
   }
   
@@ -169,4 +169,5 @@
   
   
   
+
 
