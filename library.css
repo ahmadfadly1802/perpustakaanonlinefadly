@@ -114,7 +114,7 @@
     flex-wrap: wrap; /* supaya kolom bisa turun di layar kecil */
   }
   
-  .library .column {
+  .main class.column {
     flex: 1 1 22%; /* 4 kolom dengan jarak antar kolom */
     display: flex;
     flex-direction: column;
@@ -123,13 +123,13 @@
     box-sizing: border-box;
   }
   
-  .library ul {
+  .main class {
     list-style: none;
     padding: 0;
     margin: 0;
   }
   
-  .library ul li {
+  .main class {
     background: #e0f7fa;
     border-radius: 8px;
     box-shadow: 0 0 8px rgba(0,0,0,0.1);
@@ -156,7 +156,7 @@
     font-weight: bold;
   }
   
-  .lmain class a:hover {
+  .main class a:hover {
     text-decoration: underline;
   }
   
@@ -169,3 +169,4 @@
   
   
   
+
