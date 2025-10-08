@@ -81,14 +81,14 @@ section p {
   margin-bottom: 20px;
 }
 
-.library-grid {
+.Book-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
 }
 
-.Book-item {
+.library-item {
   background: #e0f7fa;
   border-radius: 8px;
   box-shadow: 0 0 8px rgba(0,0,0,0.1);
@@ -135,4 +135,5 @@ footer {
   padding: 10px;
   text-align: center;
 }
+
 
