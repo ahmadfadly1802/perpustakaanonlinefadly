@@ -1,8 +1,8 @@
-// Fungsi dijalankan saat halaman selesai dimuat
+
 window.onload = function() {
   alert("Selamat datang di Perpustakaan Online!");
   
-  // Ambil semua link menu navigasi
+
   const navLinks = document.querySelectorAll('nav ul li a');
   
   navLinks.forEach(link => {
@@ -15,7 +15,7 @@ window.onload = function() {
     });
   });
   
-  // Tambah event alert pada link "Lihat Semua"
+ 
   const lihatSemua = document.querySelector('section#library a');
   if (lihatSemua) {
     lihatSemua.addEventListener('click', function(event) {
@@ -23,3 +23,4 @@ window.onload = function() {
     });
   }
 };
+
