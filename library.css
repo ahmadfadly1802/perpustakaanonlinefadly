@@ -88,7 +88,7 @@ section p {
   justify-content: center;
 }
 
-.library-item {
+.book-item {
   background: #e0f7fa;
   border-radius: 8px;
   box-shadow: 0 0 8px rgba(0,0,0,0.1);
@@ -103,7 +103,7 @@ section p {
   border-radius: 5px;
 }
 
-.library-item a {
+.book-item a {
   display: block;
   margin-top: 8px;
   text-decoration: none;
@@ -135,6 +135,7 @@ footer {
   padding: 10px;
   text-align: center;
 }
+
 
 
 
