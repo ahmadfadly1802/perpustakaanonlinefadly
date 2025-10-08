@@ -81,7 +81,7 @@ section p {
   margin-bottom: 20px;
 }
 
-.Book-grid {
+.book-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -135,5 +135,6 @@ footer {
   padding: 10px;
   text-align: center;
 }
+
 
 
