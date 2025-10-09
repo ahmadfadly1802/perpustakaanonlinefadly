@@ -74,7 +74,9 @@ section p {
 #HOME {
   background-color: #fc0;
 }
-
+#library {
+   background-color: #fc0;
+}
 /* LIBRARY */
 .library-header {
   text-align: center;
@@ -135,6 +137,10 @@ footer {
   padding: 10px;
   text-align: center;
 }
+h3{
+  text-align:justify;
+  width:70%;
+
 
 
 
