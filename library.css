@@ -100,8 +100,8 @@ section p {
 }
 
 .library-item img {
-  width: 100%;
-  height: auto;
+  width: 200px;
+  height: 180px;
   border-radius: 5px;
 }
 
@@ -140,6 +140,7 @@ footer {
 h3{
   text-align:justify;
     }
+
 
 
 
