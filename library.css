@@ -99,9 +99,9 @@ section p {
   text-align: center;
 }
 
-.library-item img {
+.book-item img {
   width: 200px;
-  height: 180px;
+  height: auto;
   border-radius: 5px;
 }
 
@@ -140,6 +140,7 @@ footer {
 h3{
   text-align:justify;
     }
+
 
 
 
