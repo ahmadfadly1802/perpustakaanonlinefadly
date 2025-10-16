@@ -106,6 +106,7 @@ section p {
   border-radius: 5px;
   max-height: 270px;
   object-fit: contain;
+  justify-content:center;
 }
 
 .book-item a {
@@ -143,6 +144,7 @@ footer {
 h3{
   text-align:justify;
     }
+
 
 
 
