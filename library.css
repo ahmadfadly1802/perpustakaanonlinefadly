@@ -48,7 +48,7 @@ nav ul li a {
   font-size: medium;
 }
 
-/* SECTION STYLE */
+
 section {
   padding: 20px;
   margin: 20px auto;
@@ -85,7 +85,6 @@ section p {
 
 .book-grid {
   display: flex;
-  flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
   grid-template-columns:repeat(auto-fill,minimax(200px,ifr))
@@ -144,6 +143,7 @@ footer {
 h3{
   text-align:justify;
     }
+
 
 
 
